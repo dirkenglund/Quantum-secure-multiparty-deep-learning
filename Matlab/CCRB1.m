@@ -22,6 +22,6 @@ function I_b = CCRB1(G, n, x)
     % Calculate the precision (standard deviation) for each G value
     sigma_x = sqrt(var_bound);
     
-    % Calculate the information in bits for each G value 2 for the quanutm
+    % Calculate the information in bits for each G value for the quantum case
     I_b = 0.5 * log2(1 + 2*(x.^2 ./ sigma_x.^2));
 end
