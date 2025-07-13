@@ -21,7 +21,6 @@ figure(4);
 plot(10*log10(x), Accuracies, 'bo', 'DisplayName', 'Numerical Calculation');
 hold on;
 plot(10*log10(x), fitted_values, 'r-', 'LineWidth', 2, 'DisplayName', 'Fitted Logistic Curve');
-xlabel('Physical scaling parameter F (dB)');
 xlabel('Physical scaling parameter $F$ (dB)', 'Interpreter', 'latex', 'FontSize', 14)
 
 ylabel('Classification Accuracy (%)');
